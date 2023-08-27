@@ -15,8 +15,8 @@ void (*command(char *tok))(stack_t **stack, unsigned int line_number)
 	instruction_t ops[] = {
 		{ "rotr", rotr},
 		{ "rotl", rotl},
-		{ "pchar", char2int},
-		{ "pstr", int2char},
+		{ "pstr", char2int},
+		{ "pchar", int2char},
 		{ "push", push },
 		{ "pall", pall },
 		{ "pint", pint },
